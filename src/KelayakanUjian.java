@@ -21,3 +21,12 @@ public class KelayakanUjian {
 
         boolean negasiDispensasi = !dispensasi;
         // termasuk kedalam ketentuan 5 dimana semua variabel disimpan ke dalam boolean
+
+        int cek = 0;
+        boolean x = (kehadiran >= 75) && (cek++ >= 0);
+        boolean y = (nilaiTugas >= 60) || (cek++ >= 0);
+        System.out.println();
+        // operator && AND adalah short-circuit, ketika operand kiri false maka hasil akhirnya akan menjadi false
+        // operator || OR adalah juga short-circuit, ketika operand kiri true maka hasil akhir pasti true
+        // karena (cek++>=0) keduanya tidak dijalankan maka nilai cek akan tetap 0
+
