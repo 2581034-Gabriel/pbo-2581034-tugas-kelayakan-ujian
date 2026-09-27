@@ -30,3 +30,16 @@ public class KelayakanUjian {
         // operator || OR adalah juga short-circuit, ketika operand kiri true maka hasil akhir pasti true
         // karena (cek++>=0) keduanya tidak dijalankan maka nilai cek akan tetap 0
 
+        System.out.println();
+        System.out.println("===== KELAYAKAN UJIAN =====");
+        System.out.println("Kehadiran : " + kehadiran + "%");
+        System.out.println("Nilai tugas : " + nilaiTugas);
+        System.out.println("Dispensasi : " + dispensasi);
+        System.out.println("a (tanpa kurung) : " + a);
+        System.out.println("b (kurung precedence): " + b);
+        System.out.println("c (kurung digeser): " + c);
+        System.out.println("!dispensasi: " + negasiDispensasi);
+        System.out.println("cek dipanggil: " + cek);
+
+    }
+}
